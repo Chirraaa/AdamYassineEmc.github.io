@@ -7,11 +7,9 @@
 
 .collapsible {
     max-width: 600px;
-    max-height: 0px;
     overflow: show;
     font-weight: 500;
     position: relative;
-    left: 90%;
 }
 
 .collapsible input {
@@ -109,11 +107,9 @@
 
 .collapsible2 {
     width: 600px;
-    max-height: 0px;
     overflow: show;
     font-weight: 500;
     position: relative;
-    left: 90%;
 }
 
 .collapsible2 input {

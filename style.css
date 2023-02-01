@@ -13,6 +13,8 @@ nav {
     position: relative;
 }
 
+
+
 header h1,
 .projects h1 {
     font-size: 2.5em;
@@ -139,6 +141,8 @@ header .content,
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    
 }
 
 header .content {
@@ -259,7 +263,7 @@ footer ul li:nth-child(1) {
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1500px) {
     header .content {
         margin: 0 0 0 6em;
         font-size: 18px;
@@ -276,6 +280,15 @@ footer ul li:nth-child(1) {
     .posts {
         font-size: 18px;
     }
+    .collapsible{
+        max-height: 0px;
+        left:90%;
+    }
+    .collapsible2{
+        left:90%;
+        max-height: 0px;
+    }
+
 }
 
 @media screen and (max-width: 680px) {
@@ -306,5 +319,5 @@ footer ul li:nth-child(1) {
     .projects {
         font-size: 14px;
     }
-
+    
 }
